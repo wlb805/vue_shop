@@ -4,7 +4,7 @@
     <!-- 头部 -->
     <el-header>
       <div>
-        <img src="../assets/home.png">
+        <!-- <img src="../assets/home.png"> -->
         <span>电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>

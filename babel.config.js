@@ -1,9 +1,4 @@
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ],
-  plugins: [
-    'transform-object-rest-spread'
-]
-
+  presets: ['@vue/cli-plugin-babel/preset'],
+  plugins: ['transform-object-rest-spread', 'transform-remove-console']
 }
